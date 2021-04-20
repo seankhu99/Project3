@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+html {
+	background-color: #bebebe;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 55px;
+}
+
+#homepage {
+	font-family: 'Zen Dots', cursive;
+}
+
+img[src^="images/logo_25"]{
+  width: 45%;
+}
+
+ul li{
+  text-align: center;
+}
+
+
+ul li a{
+  display: block;
+  padding: 15px 15px;
+  text-decoration: none;
+  position: relative;
+}
+
+ul li a:hover {
+  background-color: #000;
+}
+
+a {
+	font-family: 'Impact';
+	display: block;
+	color: red;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-family: 'Zen Dots', cursive;
+}
+
+a:hover {
+	background-color: #000;
+	font-family: 'Zen Dots', cursive;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FA8072, 0 0 40px #FA8072, 0 0 50px #FA8072, 0 0 60px #FA8072, 0 0 70px #FA8072;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1cm;
+  padding-top: 50px;
+  line-height: 0.8cm;
+  font-family: 'Impact';
+}
+
+h3 {
+  text-align: center;
+  font-size: 0.5cm;
+  padding: 10px;
+  line-height: 0.75cm;
+  font-family: 'Impact';
+}
+
+p {
+  font-size: 0.5cm;
+  line-height: 0.6cm;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+h4 {
+  text-align: center;
+  margin: 15px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style-type: none;
+  float: left;
+  left: 50%;
+}
+
+nav li {
+  display: block;
+  position: relative;
+  text-align: center;
+  float: left;
+  right: 50%;
+}
+
+h2{
+  text-align: center;
+  font-size: 0.65cm;
+  line-height: 0.5cm;
+  padding: 15px;
+  font-family: "Impact";
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact {
+	margin: 2px auto;
+	margin-top: 10px;
+}
+
+#education {
+	margin: 2px auto;
+	margin-top: 10px;
+}
+
+#skills {
+	margin: 2px auto;
+	margin-top: 10px;
+}
+
+#hobbies {
+	margin: 2px auto;
+	margin-top: 10px;
+}
+
+
+#about {
+	float: left;
+	width: 25%;
+	margin: 0 6% 0 0;
+}
+
+#origins {
+	float: right;
+	width: 25%;
+	margin: 0 6% 0 0;
+}
+
+#koi {
+	float: right;
+	width: 40%;
+	margin: 0 5%;
+}
+
+#david {
+	float: left;
+	width: 40%;
+	margin: 0 5%;
+}
+
+#video {
+	padding: 5%
+}
+
+#examples {
+	position: relative;
+    display: inline-block;
+	margin: 5%;
+}
+

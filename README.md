@@ -1,2 +1,2 @@
-# Project3
- Repository for Project 3, demostration of javascript
+# Project2
+ Repository for Project2, for adding CSS
