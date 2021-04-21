@@ -6,7 +6,7 @@ function initMap() {
     zoom: 16,
   });
 
-  const IOInfo = '<div class="googleMapsInfo"><h2>Round 1</h2><p>Round 1 is an entertainment franchise originally from Japan. If you love Japanese arcade games, Round 1 is unrivaled in its offerings!</p></div>';
+  const IOInfo = '<div class="googleMapsInfo"><h2>Round 1</h2><p>Round 1 is an entertainment franchise originally from Japan. If you love Japanese arcade games, Round 1 is unrivaled in its offerings! Games differ by location, the one at Fox Valley has my favorite rhythm game Sound Voltex.</p></div>';
 
   const arcade = {
     url: "images/arcade.jpg",
