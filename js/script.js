@@ -3,7 +3,7 @@ var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 41.75804020976093, lng: -88.214985292258522 },
-    zoom: 18,
+    zoom: 16,
   });
 
   const IOInfo = '<div class="googleMapsInfo"><h2>Round 1</h2><p>Round 1 is an entertainment franchise originally from Japan. If you love Japanese arcade games, Round 1 is unrivaled in its offerings!</p></div>';
