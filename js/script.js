@@ -8,7 +8,7 @@ function initMap() {
 
   const IOInfo = '<div class="googleMapsInfo"><h2>Round 1</h2><p>Round 1 is an entertainment franchise originally from Japan. If you love Japanese arcade games, Round 1 is unrivaled in its offerings!</p></div>';
 
-  const mask = {
+  const arcade = {
     url: "images/arcade.jpg",
     scaledSize: new google.maps.Size(36, 36)
   };
