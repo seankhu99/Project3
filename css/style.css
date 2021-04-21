@@ -10,6 +10,22 @@ html {
   overflow: hidden;
 }
 
+#map {
+    margin: 0 auto;
+    height: 800px;
+    width: 100%;
+}
+
+.googleMapsInfo {
+    color:#303030;
+    width: 360px;
+}
+
+.googleMapsInfo h1 {
+    margin: 0.4em;
+    margin-left: 0;
+}
+
 img {
   display: block;
   margin-left: auto;

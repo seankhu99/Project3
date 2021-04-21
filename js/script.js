@@ -6,26 +6,25 @@ function initMap() {
     zoom: 18,
   });
 
-  //html stuff here
-  const IOInfo = '<div class="googleMapsInfo"><h1>Round 1</h1><p>Round 1 is an entertainment franchise originally from Japan. If you love Japanese arcade games, Round 1 is unrivaled in its offerings!</p></div>';
-  //icons
+  const IOInfo = '<div class="googleMapsInfo"><h2>Round 1</h2><p>Round 1 is an entertainment franchise originally from Japan. If you love Japanese arcade games, Round 1 is unrivaled in its offerings!</p></div>';
+
   const mask = {
     url: "images/arcade.jpg",
     scaledSize: new google.maps.Size(36, 36)
   };
-  //markers, 
+
   const round1 = new google.maps.Marker ({
     position: {lat: 41.759341307668706, lng: -88.2115829918256},
     map,
-    icon: mask,
+    icon: arcade,
     animation: google.maps.Animation.DROP,
     title: "Round 1",
   });
-  //windows
+
   const round1Window = new google.maps.InfoWindow ({
     content: IOInfo,
   })
-  //click listeners
+
   round1.addListener("click", () => {
     round1Window.open(map, round1);
   })
